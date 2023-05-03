@@ -1,18 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <BreathingVisual />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BreathingVisual from './components/BreathingVisual.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    BreathingVisual,
+  },
+};
 </script>
+
 
 <style>
 #app {
